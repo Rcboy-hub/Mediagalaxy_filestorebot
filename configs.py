@@ -2,7 +2,7 @@ import os
 
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "21772072"))
-  API_HASH = os.environ.get("API_HASH", " df3c032880b3f1e1bbf712109283f967")
+  API_HASH = os.environ.get("API_HASH", "df3c032880b3f1e1bbf712109283f967")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "8045370089:AAF3tstDzz8qQpaQynRmC6O58uUM6JSbwuI")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "Anime_Archive_bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002410550265"))
